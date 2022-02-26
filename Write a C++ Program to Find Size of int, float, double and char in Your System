@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int intType;
+    char charType;
+    float floatType;
+    double doubleType;
+    printf("Size of int: %ld\n",
+           sizeof(intType));
+    printf("Size of char: %ld\n",
+           sizeof(charType));
+    printf("Size of float: %ld\n",
+           sizeof(floatType));
+    printf("Size of double: %ld\n",
+           sizeof(doubleType));
+    return 0;
+}
